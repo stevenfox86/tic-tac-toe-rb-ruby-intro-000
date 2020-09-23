@@ -107,4 +107,3 @@ else draw?(board)
   puts "DRAW GAME!"
 end
 end
-end
