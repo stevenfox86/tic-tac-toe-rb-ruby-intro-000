@@ -103,6 +103,7 @@ def play(board)
 turn(board) until over?(board)
 if won?(board)
   puts "Congratulations [winner[board[0]]]!"
+  puts "Congratulations X!"
 else draw?(board)
   puts "DRAW GAME!"
 end
